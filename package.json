@@ -1,0 +1,30 @@
+{
+  "name": "crossfit-wod-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "node ./src/scripts/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnoldRestrepo/crossfit-wod-api.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Arnold Restrepo Hernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnoldRestrepo/crossfit-wod-api/issues"
+  },
+  "homepage": "https://github.com/ArnoldRestrepo/crossfit-wod-api#readme",
+  "devDependencies": {
+    "nodemon": "2.0.19"
+  },
+  "dependencies": {
+    "express": "4.18.1"
+  }
+}
