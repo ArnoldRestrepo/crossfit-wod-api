@@ -5,7 +5,7 @@ const workoutController = require('../../controllers/workoutController');
 router
   .get('/', workoutController.getAllWorkouts)
   .get('/:workoutId', workoutController.getWorkoutById)
-  .post('/:workoutId', workoutController.createNewWorkout)
+  .post('/', workoutController.createNewWorkout)
   .patch('/:workoutId', workoutController.updateWorkoutById)
   .delete('/:workoutId', workoutController.deleteWorkoutById);
 
